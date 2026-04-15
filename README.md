@@ -1,66 +1,85 @@
-# 🔧 devops-stack
+![Stars](https://img.shields.io/github/stars/bursh3347-collab/devops-stack?style=flat-square)
+![License](https://img.shields.io/github/license/bursh3347-collab/devops-stack?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/bursh3347-collab/devops-stack?style=flat-square)
+
+[English](README.md) | [中文](README_CN.md)
+
+# 🛠️ devops-stack
 
 > ⭐ Maturity: **L1 Growing** — 7 projects analyzed, comparison complete, best practices started.
 
-Extracted best practices, architecture patterns, and deep analysis from 7 high-star DevOps projects on GitHub.
+DevOps and CI/CD tools curated for solo developers. Deep analysis, comparison, and **TEMC scoring** (Technology · Ecosystem · Market Timing · Combinability) of 7 high-star projects — with practical best practices you can actually use.
 
-## 📈 本分类飙升榜（最近更新：2026-04-15）
+Part of the [Open Source Knowledge Restructuring Project](https://github.com/bursh3347-collab).
 
-| 排名 | 项目 | 总Stars | 周增 | 趋势 |
-|------|------|---------|------|------|
-| 1 | Kubernetes | 115k | +300 | → |
-| 2 | Docker | 73k | +150 | → |
-| 3 | Terraform | 45k | +100 | → |
-| 4 | GitLab CI | 24k | +50 | → |
-| 5 | Jenkins | 23k | +30 | ↓ |
-| 6 | Argo CD | 19k | +80 | ↑ |
+## 📈 Trending This Week (Updated: 2026-04-15)
+
+| Rank | Project | Stars | Weekly Δ | Trend |
+|------|---------|-------|----------|-------|
+| 1 | [Kubernetes](https://github.com/kubernetes/kubernetes) | 115k | +300 | → |
+| 2 | [Docker](https://github.com/moby/moby) | 73k | +150 | → |
+| 3 | [Terraform](https://github.com/hashicorp/terraform) | 45k | +100 | → |
+| 4 | [GitLab CI](https://github.com/gitlabhq/gitlabhq) | 24k | +50 | → |
+| 5 | [Jenkins](https://github.com/jenkinsci/jenkins) | 23k | +30 | ↓ |
+| 6 | [Argo CD](https://github.com/argoproj/argo-cd) | 19k | +80 | ↑ |
 | 7 | GitHub Actions | N/A | N/A | 🚀 |
 
-> 🌟 GitHub Actions 无开源仓库但市场份额第一（33%+）。Argo CD 在 GitOps 领域稳步增长。
+> 🌟 GitHub Actions has no open-source repo but holds #1 market share (33%+). Argo CD steadily growing in the GitOps space.
+
+## 📊 Project Rankings (by TEMC Score)
+
+| Rank | Project | Stars | TEMC | Language | Category |
+|------|---------|-------|------|----------|----------|
+| 1 | [GitHub Actions](projects/github-actions.md) | N/A | **91** | YAML | CI/CD |
+| 2 | [Docker](projects/docker.md) | ~73k | **85** | Go | Containers |
+| 3 | [Kubernetes](projects/kubernetes.md) | ~115k | **73** | Go | Orchestration |
+| 4 | [Terraform](projects/terraform.md) | ~45k | **72** | Go | IaC |
+| 5 | [GitLab CI](projects/gitlab-ci.md) | ~24k | **66** | Ruby | CI/CD |
+| 6 | [Argo CD](projects/argocd.md) | ~19k | **64** | Go | GitOps |
+| 7 | [Jenkins](projects/jenkins.md) | ~23k | **55** | Java | CI/CD |
+
+> **TEMC** = Technology (25%) + Ecosystem (20%) + Market Timing (30%) + Combinability (25%)
 
 ## 📋 What's Inside
 
-### Projects Analyzed (7)
-| Project | Stars | TEMC | Language | Category |
-|---------|-------|------|----------|----------|
-| [GitHub Actions](projects/github-actions.md) | N/A | **91** | YAML | CI/CD |
-| [Docker](projects/docker.md) | ~73k | **85** | Go | Containers |
-| [Kubernetes](projects/kubernetes.md) | ~115k | **73** | Go | Orchestration |
-| [Terraform](projects/terraform.md) | ~45k | **72** | Go | IaC |
-| [GitLab CI](projects/gitlab-ci.md) | ~24k | **66** | Ruby | CI/CD |
-| [Argo CD](projects/argocd.md) | ~19k | **64** | Go | GitOps |
-| [Jenkins](projects/jenkins.md) | ~23k | **55** | Java | CI/CD |
-
-### Comparison & Best Practices
 - [📊 DevOps Tools Comparison](comparison.md) — Side-by-side feature matrix
-- [🔄 CI/CD Pipeline](best-practices/cicd-pipeline.md) — Standard pipeline patterns
-- [📦 Containerization](best-practices/containerization.md) — Docker best practices
+- [🔄 CI/CD Pipeline Patterns](best-practices/cicd-pipeline.md) — Standard pipeline architectures
+- [📦 Containerization Best Practices](best-practices/containerization.md) — Docker done right
 - [🏗️ Infrastructure as Code](best-practices/infrastructure-as-code.md) — When and how to use IaC
 - [🗺️ Technology Roadmap](roadmap.md) — Trends & predictions for DevOps
 
-## 🎯 Quick Recommendation for Micro SaaS Solo Developer
+## 🏆 Solo Dev Verdict
 
-| Need | Tool | Why |
+| Need | Pick | Why |
 |------|------|-----|
-| CI/CD | **GitHub Actions** | Already where your code is, free tier generous |
+| CI/CD | **GitHub Actions** | Already where your code lives, generous free tier |
 | Local Dev | **Docker Compose** | Postgres + Redis in one command |
 | Deployment | **Vercel** | Zero-config, git-push deploy |
-| Database | **Supabase** or **Neon** | Managed Postgres, no ops |
+| Database | **Supabase** or **Neon** | Managed Postgres, zero ops |
 
-**Skip**: Kubernetes, Terraform, Argo CD, Jenkins — overkill for 1 person.
+**Skip for solo work**: Kubernetes, Terraform, Argo CD, Jenkins — overkill for a one-person team.
 
-## 🏗️ Repository Structure
+## 📂 Structure
+
 ```
 devops-stack/
-├── README.md              ← You are here
-├── projects/              ← Individual project analyses (TEMC scored)
+├── projects/              ← Individual project deep-dives (TEMC scored)
 ├── best-practices/        ← Cross-project patterns
 ├── code/                  ← Extractable code (coming soon)
 ├── comparison.md          ← Horizontal comparison tables
 ├── roadmap.md             ← Technology trends & predictions
-├── CONTRIBUTING.md        ← How to contribute
-└── SOURCES.md             ← All source links + licenses
+├── CONTRIBUTING.md
+├── SOURCES.md
+└── README.md
 ```
 
+## 📝 How to Use
+
+1. **Compare** — Start with [comparison.md](comparison.md) for the full landscape
+2. **Deep-dive** — Read the analysis for your chosen tool in `projects/`
+3. **Apply** — Use patterns from `best-practices/` in your workflow
+4. **Stay current** — Check [roadmap.md](roadmap.md) for where DevOps is heading
+
 ## License
-This repository contains analysis and extracted patterns. See [SOURCES.md](SOURCES.md).
+
+Analysis content: MIT. Each referenced project has its own license — see [SOURCES.md](SOURCES.md).
