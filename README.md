@@ -1,2 +1,25 @@
-# devops-stack
-从高星 DevOps 项目中提炼的最佳实践与代码，涵盖 Docker、持续集成 / 持续交付、GitHub Actions、Vercel 部署规范
+# 🚀 devops-stack
+
+[![Stars](https://img.shields.io/github/stars/bursh3347-collab/devops-stack?style=social)](https://github.com/bursh3347-collab/devops-stack)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> ⭐ **Maturity: L0 Seed** — No projects analyzed yet. Coming soon.
+
+Extracted best practices from high-star DevOps, CI/CD, and deployment projects.
+
+## 📂 Structure
+
+```
+devops-stack/
+├── projects/        ← Project analyses
+├── best-practices/  ← Distilled patterns
+├── code/            ← Reusable code
+├── comparison.md    ← Horizontal comparison
+├── SOURCES.md       ← Source list
+└── CONTRIBUTING.md
+```
+
+## 🔗 [All Repositories](https://github.com/bursh3347-collab)
+
+---
+*Powered by [天工系统](https://github.com/bursh3347-collab)*
