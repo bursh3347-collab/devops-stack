@@ -35,3 +35,6 @@ GitLab CI is the most integrated DevOps platform — source code, CI/CD, contain
 - Competing ecosystem, not composable with GitHub Actions
 - Self-hosted GitLab is resource-heavy
 - Free tier limitations increasing
+
+## 天子点评
+好产品但用不上——天子在 GitHub 生态。功能比 GitHub Actions 更全面，但切换成本太高。了解即可。

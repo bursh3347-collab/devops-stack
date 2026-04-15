@@ -49,3 +49,6 @@ Docker packages applications into portable containers that run identically every
 - Docker Desktop licensing ($5/user/month for business)
 - Resource overhead for solo developer
 - Complexity for simple deployments
+
+## 天子点评
+本地开发必备（docker-compose 一键起 Postgres + Redis），但部署用 Vercel 不需要 Docker。学会 Compose 就够了。

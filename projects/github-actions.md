@@ -51,3 +51,6 @@ Zero-config CI/CD that lives where your code already is. No separate service to 
 - Minutes-based pricing can spike
 - Complex workflows become unwieldy
 - Self-hosted runners require infrastructure
+
+## 天子点评
+一人公司 CI/CD 唯一选择，不需要考虑其他。代码在 GitHub，CI/CD 也在 GitHub，零摩擦。免费额度完全够用。

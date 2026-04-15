@@ -36,3 +36,6 @@ Argo CD implements GitOps: your Git repository IS your deployment source of trut
 - GitOps adds complexity for simple deployments
 - Vercel's git-based deployment IS already GitOps
 - Only makes sense at scale (10+ services)
+
+## 天子点评
+GitOps 理念很棒，但绑定 K8s 就不适合一人公司了。Vercel 的 git-push 部署本质上就是简化版 GitOps。

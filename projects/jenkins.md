@@ -31,3 +31,6 @@ Jenkins pioneered CI/CD automation. 1,800+ plugins mean it can integrate with vi
 - Security vulnerabilities are common
 - GitHub Actions/GitLab CI are better for new projects
 - Declining community momentum
+
+## 天子点评
+CI/CD 祖师爷，但已是上个时代的产物。2026 年新项目零理由选 Jenkins。GitHub Actions 全面碾压。

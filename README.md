@@ -4,7 +4,21 @@
 
 Extracted best practices, architecture patterns, and deep analysis from 7 high-star DevOps projects on GitHub.
 
-## 📈 What's Inside
+## 📈 本分类飙升榜（最近更新：2026-04-15）
+
+| 排名 | 项目 | 总Stars | 周增 | 趋势 |
+|------|------|---------|------|------|
+| 1 | Kubernetes | 115k | +300 | → |
+| 2 | Docker | 73k | +150 | → |
+| 3 | Terraform | 45k | +100 | → |
+| 4 | GitLab CI | 24k | +50 | → |
+| 5 | Jenkins | 23k | +30 | ↓ |
+| 6 | Argo CD | 19k | +80 | ↑ |
+| 7 | GitHub Actions | N/A | N/A | 🚀 |
+
+> 🌟 GitHub Actions 无开源仓库但市场份额第一（33%+）。Argo CD 在 GitOps 领域稳步增长。
+
+## 📋 What's Inside
 
 ### Projects Analyzed (7)
 | Project | Stars | TEMC | Language | Category |
@@ -22,6 +36,7 @@ Extracted best practices, architecture patterns, and deep analysis from 7 high-s
 - [🔄 CI/CD Pipeline](best-practices/cicd-pipeline.md) — Standard pipeline patterns
 - [📦 Containerization](best-practices/containerization.md) — Docker best practices
 - [🏗️ Infrastructure as Code](best-practices/infrastructure-as-code.md) — When and how to use IaC
+- [🗺️ Technology Roadmap](roadmap.md) — Trends & predictions for DevOps
 
 ## 🎯 Quick Recommendation for Micro SaaS Solo Developer
 
@@ -42,6 +57,8 @@ devops-stack/
 ├── best-practices/        ← Cross-project patterns
 ├── code/                  ← Extractable code (coming soon)
 ├── comparison.md          ← Horizontal comparison tables
+├── roadmap.md             ← Technology trends & predictions
+├── CONTRIBUTING.md        ← How to contribute
 └── SOURCES.md             ← All source links + licenses
 ```
 

@@ -46,3 +46,6 @@ Terraform lets you define your entire cloud infrastructure (servers, databases, 
 - State management complexity
 - HCL learning curve
 - Solo developer doesn't need IaC — click-ops is faster for 1-2 services
+
+## 天子点评
+IaC 标杆工具，但 BUSL 协议是大坑。一人公司用 Vercel 根本不需要 IaC。如果未来管 AWS，优先选 OpenTofu。

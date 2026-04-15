@@ -45,3 +45,6 @@ Kubernetes is the universal API for deploying, scaling, and managing containeriz
 - Operational overhead (even managed K8s)
 - Cost: minimum ~$70/month for managed cluster
 - Vercel/Railway/Fly.io solve the same problems with zero K8s knowledge
+
+## 天子点评
+云计算操作系统，技术上无可挑剔。但一人公司绝对不要碰——Vercel 就是你的 K8s。了解概念即可，不要实操。
