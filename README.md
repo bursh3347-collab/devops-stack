@@ -6,25 +6,28 @@
 
 # 🛠️ devops-stack
 
-> ⭐ Maturity: **L1 Growing** — 7 projects analyzed, comparison complete, best practices started.
+> ⭐ Maturity: **L2 Growing** — 12+ projects analyzed, comparison & best practices complete, observability stack added.
 
-DevOps and CI/CD tools curated for solo developers. Deep analysis, comparison, and **TEMC scoring** (Technology · Ecosystem · Market Timing · Combinability) of 7 high-star projects — with practical best practices you can actually use.
+DevOps, CI/CD, monitoring, and infrastructure tools curated for solo developers. Deep analysis, comparison, and **TEMC scoring** (Technology · Ecosystem · Market Timing · Combinability) of 12+ high-star projects — with practical best practices you can actually use.
 
 Part of the [Open Source Knowledge Restructuring Project](https://github.com/bursh3347-collab).
 
-## 📈 Trending This Week (Updated: 2026-04-15)
+## 📈 Trending This Week (Updated: 2026-04-16)
 
 | Rank | Project | Stars | Weekly Δ | Trend |
 |------|---------|-------|----------|-------|
 | 1 | [Kubernetes](https://github.com/kubernetes/kubernetes) | 115k | +300 | → |
 | 2 | [Docker](https://github.com/moby/moby) | 73k | +150 | → |
-| 3 | [Terraform](https://github.com/hashicorp/terraform) | 45k | +100 | → |
-| 4 | [GitLab CI](https://github.com/gitlabhq/gitlabhq) | 24k | +50 | → |
-| 5 | [Jenkins](https://github.com/jenkinsci/jenkins) | 23k | +30 | ↓ |
-| 6 | [Argo CD](https://github.com/argoproj/argo-cd) | 19k | +80 | ↑ |
-| 7 | GitHub Actions | N/A | N/A | 🚀 |
+| 3 | [Grafana](https://github.com/grafana/grafana) | 66k | +200 | ↑ |
+| 4 | [Ansible](https://github.com/ansible/ansible) | 63k | +100 | → |
+| 5 | [Caddy](https://github.com/caddyserver/caddy) | 60k | +180 | ↑ |
+| 6 | [Prometheus](https://github.com/prometheus/prometheus) | 56k | +160 | ↑ |
+| 7 | [Traefik](https://github.com/traefik/traefik) | 52k | +120 | → |
+| 8 | [Terraform](https://github.com/hashicorp/terraform) | 45k | +100 | → |
+| 9 | [Pulumi](https://github.com/pulumi/pulumi) | 22k | +90 | ↑ |
+| 10 | GitHub Actions | N/A | N/A | 🚀 |
 
-> 🌟 GitHub Actions has no open-source repo but holds #1 market share (33%+). Argo CD steadily growing in the GitOps space.
+> 🌟 Grafana, Caddy, Prometheus seeing steady growth. Pulumi gaining momentum as TypeScript IaC.
 
 ## 📊 Project Rankings (by TEMC Score)
 
@@ -32,11 +35,21 @@ Part of the [Open Source Knowledge Restructuring Project](https://github.com/bur
 |------|---------|-------|------|----------|----------|
 | 1 | [GitHub Actions](projects/github-actions.md) | N/A | **91** | YAML | CI/CD |
 | 2 | [Docker](projects/docker.md) | ~73k | **85** | Go | Containers |
-| 3 | [Kubernetes](projects/kubernetes.md) | ~115k | **73** | Go | Orchestration |
-| 4 | [Terraform](projects/terraform.md) | ~45k | **72** | Go | IaC |
-| 5 | [GitLab CI](projects/gitlab-ci.md) | ~24k | **66** | Ruby | CI/CD |
-| 6 | [Argo CD](projects/argocd.md) | ~19k | **64** | Go | GitOps |
-| 7 | [Jenkins](projects/jenkins.md) | ~23k | **55** | Java | CI/CD |
+| 3 | [Act](projects/act.md) | ~70k | **84** | Go | Local CI |
+| 4 | [Coolify](projects/coolify.md) | ~53k | **82** | PHP/TS | Self-hosted PaaS |
+| 5 | [Prometheus](projects/prometheus.md) | ~56k | **81** | Go | Monitoring |
+| 6 | [Grafana](projects/grafana.md) | ~66k | **81** | Go/TS | Visualization |
+| 7 | [Caddy](projects/caddy.md) | ~60k | **79** | Go | Web Server |
+| 8 | [Pulumi](projects/pulumi.md) | ~22k | **78** | Go/TS | IaC |
+| 9 | [OpenTofu](projects/opentofu.md) | ~28k | **76** | Go | IaC |
+| 10 | [Traefik](projects/traefik.md) | ~53k | **76** | Go | Reverse Proxy |
+| 11 | [Ansible](projects/ansible.md) | ~63k | **75** | Python | Config Management |
+| 12 | [Kubernetes](projects/kubernetes.md) | ~115k | **73** | Go | Orchestration |
+| 13 | [Terraform](projects/terraform.md) | ~45k | **72** | Go | IaC |
+| 14 | [Kamal](projects/kamal.md) | ~14k | **71** | Ruby | Deploy CLI |
+| 15 | [GitLab CI](projects/gitlab-ci.md) | ~24k | **66** | Ruby | CI/CD |
+| 16 | [Argo CD](projects/argocd.md) | ~19k | **64** | Go | GitOps |
+| 17 | [Jenkins](projects/jenkins.md) | ~23k | **55** | Java | CI/CD |
 
 > **TEMC** = Technology (25%) + Ecosystem (20%) + Market Timing (30%) + Combinability (25%)
 
@@ -48,6 +61,16 @@ Part of the [Open Source Knowledge Restructuring Project](https://github.com/bur
 - [🏗️ Infrastructure as Code](best-practices/infrastructure-as-code.md) — When and how to use IaC
 - [🗺️ Technology Roadmap](roadmap.md) — Trends & predictions for DevOps
 
+## 🆕 L2 Additions (April 2026)
+
+| Project | TEMC | Why Added |
+|---------|------|-----------|
+| [Prometheus](projects/prometheus.md) | **81** | De facto standard for cloud-native monitoring. CNCF graduated |
+| [Grafana](projects/grafana.md) | **81** | Industry-standard visualization. Pairs with Prometheus |
+| [Caddy](projects/caddy.md) | **79** | Automatic HTTPS, zero-config TLS. Perfect for solo devs |
+| [Pulumi](projects/pulumi.md) | **78** | TypeScript IaC — same language as your app code |
+| [Ansible](projects/ansible.md) | **75** | Agentless automation, 63K+ stars, massive ecosystem |
+
 ## 🏆 Solo Dev Verdict
 
 | Need | Pick | Why |
@@ -55,15 +78,18 @@ Part of the [Open Source Knowledge Restructuring Project](https://github.com/bur
 | CI/CD | **GitHub Actions** | Already where your code lives, generous free tier |
 | Local Dev | **Docker Compose** | Postgres + Redis in one command |
 | Deployment | **Vercel** | Zero-config, git-push deploy |
+| Self-hosted Deploy | **Caddy** + Docker Compose | Automatic HTTPS, simple config |
+| Monitoring | **Prometheus + Grafana** | Free, production-grade (post-PMF) |
+| IaC (if needed) | **Pulumi** (TypeScript) | Same language as your app |
 | Database | **Supabase** or **Neon** | Managed Postgres, zero ops |
 
-**Skip for solo work**: Kubernetes, Terraform, Argo CD, Jenkins — overkill for a one-person team.
+**Skip for solo work**: Kubernetes, Terraform, Argo CD, Jenkins, Ansible — overkill for a one-person team.
 
 ## 📂 Structure
 
 ```
 devops-stack/
-├── projects/              ← Individual project deep-dives (TEMC scored)
+├── projects/              ← 17 individual project deep-dives (TEMC scored)
 ├── best-practices/        ← Cross-project patterns
 ├── code/                  ← Extractable code (coming soon)
 ├── comparison.md          ← Horizontal comparison tables
